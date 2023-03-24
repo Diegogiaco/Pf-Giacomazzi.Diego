@@ -1,0 +1,22 @@
+/*INDEX*/
+.intro{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+h2 {
+    display: flex ;
+    justify-items: center;
+}
+p {
+    font-size: $style-parrafo;
+}
+.images-1 {
+    gap: 20px;
+}
+.frase {
+    font-style: $style-frase ;
+}
+.images-1{
+    display: flex;
+    justify-content: $espaciado;
+}

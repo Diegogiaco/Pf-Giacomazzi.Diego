@@ -1,0 +1,538 @@
+/*HEADER*/
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  background-color: rgb(168, 168, 168);
+  height: 100%;
+  align-items: center;
+}
+
+.boton {
+  border: 2px;
+  border-style: double;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+  width: auto;
+  height: 50px;
+}
+
+.menu {
+  background-color: rgb(134, 135, 204);
+  height: 100%;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0px;
+  height: 50px;
+}
+
+.letras {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/*GENERAL*/
+body {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-pintada-blanco_53876-138197.jpg?size=626&ext=jpg&ga=GA1.1.187570847.1675342931);
+}
+
+/*FOOTER*/
+.casa {
+  list-style-image: url(../media/casa.png);
+  grid-area: casa;
+}
+
+.correo {
+  list-style-image: url(../media/correo.png);
+  grid-area: correo;
+}
+
+.telefono-p {
+  list-style-image: url(../media/telefono-p.png) !important;
+  grid-area: tel;
+}
+
+.celular {
+  list-style-image: url(../media/celular.png);
+}
+
+.telefono {
+  list-style-image: url(../media/telefono.png);
+}
+
+footer {
+  padding-left: 100px;
+  padding-top: 10px;
+  bottom: 0px;
+  background-color: rgb(134, 135, 204);
+  font-size: 20px;
+  display: grid;
+  width: auto;
+  column-gap: 20px;
+  grid-template-areas: "casa correo tel";
+}
+
+/*INDEX*/
+.intro {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  display: flex;
+  justify-items: center;
+}
+
+p {
+  font-size: "22px";
+}
+
+.images-1 {
+  gap: 20px;
+}
+
+.frase {
+  font-style: italic;
+}
+
+.images-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*SERVICIO*/
+.servicios-list {
+  grid-area: servicios;
+}
+
+.images-2 {
+  grid-area: img;
+}
+
+.encabezado {
+  grid-area: h2;
+  margin-left: 50px;
+}
+
+.pie {
+  grid-area: h3;
+}
+
+.servicios-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-1 {
+  grid-area: img1;
+}
+
+.img-2 {
+  grid-area: img2;
+}
+
+.img-3 {
+  grid-area: img3;
+}
+
+.work {
+  display: grid;
+  margin-top: 40px;
+  row-gap: 20px;
+  margin-bottom: 40px;
+  font-family: "Times New Roman";
+  grid-template-areas: "h2 h2" "servicios img" "h3 h3";
+}
+.work li {
+  font-size: 20px;
+}
+
+/*PERSONAL*/
+.personal1 {
+  display: grid;
+  grid-area: person-1;
+  grid-template-rows: 200px auto;
+  place-items: center;
+  grid-template-areas: "img1" "text1";
+}
+.personal1 .imagen1 {
+  width: 125px;
+  height: auto;
+  grid-area: img1;
+}
+.personal1 .texto1 {
+  place-items: start;
+  margin-top: 30px;
+  grid-area: text1;
+}
+
+.personal2 {
+  display: grid;
+  grid-area: person-2;
+  grid-template-rows: 200px auto;
+  grid-template-areas: "img2" "text2";
+}
+.personal2 .imagen2 {
+  align-self: center;
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+  grid-area: img2;
+}
+.personal2 .texto2 {
+  align-items: start;
+  margin-top: 30px;
+  grid-area: text2;
+}
+
+.personal3 {
+  display: grid;
+  grid-area: person-3;
+  grid-template-rows: 200px auto;
+  grid-template-areas: "img3" "text3";
+}
+.personal3 .imagen3 {
+  align-self: center;
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+  grid-area: img3;
+}
+.personal3 .texto3 {
+  place-items: start;
+  margin-top: 30px;
+  grid-area: text3;
+}
+
+.titulo-p {
+  grid-area: h2;
+  justify-self: center;
+  font-size: 60px;
+  font-family: "Times New Roman";
+}
+
+.personal-pages {
+  display: grid;
+  margin-top: 100px;
+  column-gap: 40px;
+  grid-area: personal;
+  grid-template-areas: "person-1 person-2 person-3";
+}
+
+.personal-1 {
+  display: grid;
+  grid-template-areas: "h2 h2 h2" "personal";
+}
+
+/*TURNERO*/
+.form-1 {
+  justify-content: space-around;
+}
+
+.form-2 {
+  margin: 50px;
+  width: 400px;
+}
+
+.maps-2 {
+  align-self: center;
+  justify-self: center;
+  width: 500px;
+  height: 500px;
+}
+
+.boton-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*CONSULTA*/
+.form-3 {
+  margin: 50px;
+  width: 400px;
+  flex-direction: column;
+}
+
+.text-1 {
+  height: 150px;
+  width: 400px;
+}
+
+.boton-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.consulta {
+  display: grid;
+  grid-template-areas: "form img";
+}
+.consulta .form-3 {
+  grid-area: form;
+}
+.consulta .images-3 {
+  display: grid;
+  grid-area: img;
+  grid-template-areas: "cons-1 cons-1" "cons-2 cons-3";
+}
+.consulta .images-3 .cons-1 {
+  grid-area: cons-1;
+  align-self: end;
+  justify-self: center;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 200px;
+}
+.consulta .images-3 .cons-2 {
+  grid-area: cons-2;
+}
+.consulta .images-3 .cons-3 {
+  grid-area: cons-3;
+}
+
+/*laptop L*/
+@media (max-width: 1260px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 60px;
+  }
+}
+/*laptop L 1/2*/
+@media (max-width: 1100px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 56px;
+  }
+}
+/*laptop*/
+@media (max-width: 1024px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 50px;
+  }
+  .images-1 {
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    height: 60%;
+  }
+  /*FOOTER*/
+  footer {
+    padding-left: 30px;
+    grid-template-areas: "casa correo" "tel tel";
+  }
+  /*INDEX*/
+  .texto-1 {
+    justify-content: center;
+    height: auto;
+  }
+  /*TURNERO*/
+  .form-1 {
+    align-items: center;
+  }
+  .form-2 {
+    margin: 25px;
+  }
+  /*CONSULTA*/
+  .images-3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .images-3 .cons-1 {
+    width: 150px !important;
+    height: 150px !important;
+    align-self: start !important;
+  }
+  .images-3 .cons-2 {
+    width: 150px;
+    height: 150px;
+  }
+  .images-3 .cons-3 {
+    width: 150px;
+    height: 150px;
+  }
+}
+/*laptop 1/2*/
+@media (max-width: 925px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 45px;
+  }
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*laptop 3/4*/
+@media (max-width: 840px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 41px;
+  }
+}
+/*Tablet*/
+@media (max-width: 768px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 40px;
+  }
+  .boton {
+    font-size: 20px;
+    height: 40px;
+  }
+  .menu {
+    height: 40px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  /*FOOTER*/
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  /*PERSONAL*/
+  .personal-pages {
+    grid-template-areas: "person-1 person-2" "person-3 person-3";
+  }
+  /*CONSULTA*/
+  .consulta {
+    display: flex;
+    flex-direction: column;
+  }
+  .images-3 {
+    display: flex !important;
+    flex-direction: row !important;
+    align-content: space-around;
+  }
+  .cons-1 {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .cons-2 {
+    width: 50px;
+    height: 50px;
+  }
+  .cons-3 {
+    width: 50px;
+    height: 50px;
+  }
+}
+/*Tablet 1/4*/
+@media (max-width: 726px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 35px;
+  }
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+  /*SERVICO*/
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*Tablet 1/2*/
+@media (max-width: 650px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 30px;
+  }
+}
+/*Tablet 3/4*/
+@media (max-width: 560px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 23px;
+  }
+  /*PERSONAL*/
+  .titulo-p {
+    font-size: 50px;
+  }
+  .personal-pages {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+  }
+  /*CONSULTA*/
+  .images-3 {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .form-3 {
+    margin: 10px;
+  }
+  .text-1 {
+    width: auto;
+  }
+}
+/*mobile*/
+@media (max-width: 426px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 20px;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: normal;
+    height: auto;
+  }
+  .boton {
+    font-size: 20px;
+  }
+  /*FOOTER*/
+  .work {
+    padding-left: 0px;
+  }
+  /*PERSONAL*/
+  .personal img {
+    width: 60%;
+  }
+  /*TURNERO*/
+  .form-1 {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  .form-2 {
+    margin: 0;
+    width: 200px;
+  }
+  .maps-2 {
+    height: 80%;
+    width: 80%;
+  }
+  /*CONSULTA*/
+  .form-3 {
+    margin: 0px;
+    width: auto;
+  }
+}
+/*mobile small*/
+@media (max-width: 320px) {
+  /*Footer*/
+  footer .mail {
+    overflow-wrap: break-word;
+  }
+}
+/*ANIMACIONES*/
+/*header*/
+.boton:hover {
+  background-color: rgb(169, 170, 227);
+}
+
+/*# sourceMappingURL=main.css.map */

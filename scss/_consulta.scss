@@ -1,0 +1,44 @@
+/*CONSULTA*/
+.form-3{
+  @include marg-width ;
+  flex-direction: column;
+
+}
+.text-1{
+    height: 150px;
+    width: 400px;
+}
+.boton-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.consulta{
+  display: grid;
+  grid-template-areas: 
+  'form img';
+  .form-3{
+    grid-area: form;
+  }
+  .images-3{
+    display: grid;
+    grid-area: img;
+    grid-template-areas: 
+    'cons-1 cons-1'
+    'cons-2 cons-3';
+    .cons-1{
+      grid-area: cons-1;
+      align-self: end;
+      justify-self: center;
+      margin-bottom: 30px;
+      width: 200px;
+      height: 200px;
+    }
+    .cons-2{
+      grid-area: cons-2;
+    }
+    .cons-3{
+      grid-area: cons-3;
+    }
+  }
+}

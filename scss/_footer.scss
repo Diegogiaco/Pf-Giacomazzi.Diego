@@ -1,0 +1,32 @@
+/*FOOTER*/
+.casa{
+    list-style-image: url(../media/casa.png);
+    grid-area: casa;
+}
+.correo{
+    list-style-image: url(../media/correo.png);
+    grid-area: correo;
+}
+.telefono-p{
+    list-style-image: url(../media/telefono-p.png)!important;
+    grid-area: tel;
+}
+.celular {
+    list-style-image: url(../media/celular.png);
+}
+.telefono {
+    list-style-image: url(../media/telefono.png);
+}
+
+footer {
+    padding-left: 100px;
+    padding-top: 10px;
+    bottom: 0px;
+    background-color: $color-general;
+    font-size: 20px;
+    display: grid;
+    width: auto;
+    column-gap: 20px;
+    grid-template-areas: 
+    'casa correo tel';
+}

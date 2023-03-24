@@ -1,0 +1,240 @@
+/*laptop L*/
+@media (max-width: 1260px) {
+    /*GENERAL*/
+    .titulo {
+            font-size: 60px;
+            }
+}
+/*laptop L 1/2*/
+@media (max-width: 1100px) {
+    /*GENERAL*/
+    .titulo {
+            font-size: 56px;
+            }
+}
+/*laptop*/
+@media (max-width: 1024px) {
+    /*GENERAL*/
+    .titulo {
+            font-size: 50px;
+            }
+    .images-1{
+            flex-direction: column;
+            gap: 20px;
+            width: 60%;
+            height: 60%;
+    }
+    /*FOOTER*/
+    footer{
+        padding-left: 30px;
+        grid-template-areas: 
+        'casa correo'
+        'tel tel';
+    }
+    /*INDEX*/
+    .texto-1 {
+        justify-content: center;
+        height: auto;
+    }
+    /*TURNERO*/
+    .form-1{
+        align-items: center;
+    }
+    .form-2{
+        margin: 25px;
+    }
+    /*CONSULTA*/
+    .images-3{
+        display: flex !important;
+        flex-direction: column !important;
+        align-content: center;
+        justify-content: space-around;
+
+        .cons-1{
+            width: 150px !important;
+            height: 150px !important ;
+            align-self: start !important;
+        }
+        .cons-2{
+            width: 150px ;
+            height: 150px ;
+        }
+        .cons-3{
+            width: 150px ;
+            height: 150px ;
+        }
+    }
+}
+/*laptop 1/2*/
+@media (max-width: 925px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 45px;
+        }
+    .intro {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*laptop 3/4*/
+@media (max-width: 840px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 41px;
+        }
+}    
+/*Tablet*/
+@media (max-width: 768px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 40px;
+    }
+    .boton {
+        font-size: 20px;
+        height: 40px;
+    }
+    .menu {
+        height: 40px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    /*FOOTER*/
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    /*PERSONAL*/
+    .personal-pages {
+        grid-template-areas: 
+        'person-1 person-2'
+        'person-3 person-3';
+    }
+    /*CONSULTA*/
+    .consulta{
+        display: flex;
+        flex-direction: column;
+    }
+    .images-3{
+        display: flex !important;
+        flex-direction: row !important;
+        align-content: space-around;
+    }
+    .cons-1{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .cons-2{
+        width: 50px ;
+        height: 50px ;
+    }
+    .cons-3{
+        width: 50px ;
+        height: 50px ;
+    }
+}
+/*Tablet 1/4*/
+@media (max-width: 726px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 35px;
+    }
+    .menu {
+        flex-direction: column;
+        height: auto;
+    }
+    /*SERVICO*/
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*Tablet 1/2*/
+@media (max-width: 650px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 30px;
+    }
+}    
+/*Tablet 3/4*/
+@media (max-width: 560px) {
+    /*GENERAL*/
+    .titulo {
+        font-size: 23px;
+    }
+    /*PERSONAL*/
+    .titulo-p{
+        font-size: 50px;
+    }
+    .personal-pages{
+        display: flex;
+        padding-top: 30px;
+        flex-direction: column;
+    }
+    /*CONSULTA*/
+    .images-3{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .form-3{
+        margin: 10px;
+    }
+    .text-1 {
+        width: auto;
+    }
+
+}
+/*mobile*/
+@media (max-width: 426px) {
+    /*GENERAL*/
+    .titulo{
+        font-size: 20px;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: normal;
+        height: auto;
+    }
+    .boton{
+        font-size: 20px;
+    }
+    /*FOOTER*/
+    .work {
+        padding-left: 0px;
+    }
+    /*PERSONAL*/
+
+    .personal img{
+        width: 60%;
+       
+    }
+    /*TURNERO*/
+    .form-1 {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    .form-2 {
+        margin: 0;
+        width: 200px;
+    }
+    .maps-2 {
+        height: 80%;
+        width: 80%;
+    }
+    /*CONSULTA*/
+    .form-3{
+        margin: 0px;
+        width: auto;
+    }
+}
+/*mobile small*/
+@media (max-width: 320px) {
+    /*Footer*/
+    footer{
+        .mail{
+            overflow-wrap: break-word;
+        };
+    }
+}

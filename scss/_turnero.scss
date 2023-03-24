@@ -1,0 +1,17 @@
+/*TURNERO*/
+.form-1{
+    justify-content: $espaciado;
+}
+.form-2 {
+    @include marg-width;
+}
+.maps-2{
+    align-self: center;
+    justify-self: center;
+    width: 500px;
+    height: 500px;
+}
+.boton-2 {
+    display: flex;
+    justify-content: space-between;
+}
